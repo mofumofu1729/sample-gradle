@@ -28,3 +28,7 @@ application {
     // Define the main class for the application.
     mainClass = 'sample.gradle.App'
 }
+
+task hello {
+    println "Hello World! from build.gradle"
+}
